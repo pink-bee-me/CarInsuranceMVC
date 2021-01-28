@@ -1,0 +1,53 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="~/Content/HomeAboutPageStyles.css"/>
+</head>
+<body id="HomeAboutPageBodyContainer">
+
+  <div id="HomeAboutBackground">
+    <img src="~/Content/Images/SeasideDrive.jpg" alt="Seaside Road Trip" />
+  </div>
+  <div id="ColorOverlay">
+    <div id="ImageTextOverlay">
+      <div class="jumbotron">
+
+        <h1 id="BetterDeal"style="font-size:4em;">Can you get a better deal on your auto insurance?</h1>
+
+        <h3 id="Yes">The answer is "YES"! Absolutely!</h3><br /><br />
+        <h2 id="RightPlace">
+          ... you've definitely come to the right place!
+        </h2><br />
+
+        <h1 id="CompanyName">The Auto Insurance Connection</h1>
+        
+        <div id="SalesPitch">
+           <h3>Our Mission</h3>
+            <p>To Deliver Exceptional Coverage and Provide Outstanding Service at The Best Price Ever!!!
+           <h3>The Process:</h3>
+            <p>
+              &#64 The Auto Insurance Connection, every policy is a precisely crafted and highly customized using our<br/> patented formula which evaluates Three Key Factors:
+              Lifestyle, Personal Finance/Budget, and Coverage Requirements.
+            </p>
+           <h3>The Result:</h3>
+            <p>A top-notch Auto Inurance Solution that is custom-made and tailor-fit just for you!</p>
+          <br /><br />
+          <p>Life is like a Road Trip... everyone's experience is unique and so are their insurance needs!<br />So, take a minute and do yourself a favor...</p>
+            <h3 id="Join"> Join US! and Let The Good Times Roll...</h3>
+          <div id="FreeQuoteButton" >
+  @Html.ActionLink("Get Your Free Quote Today!", "Create", "Insuree", new { @class = "font-size:1.75em; color:white;" })
+</div>
+        </div>
+  </div>
+</div>
+    </div>
+</body>
+</html>

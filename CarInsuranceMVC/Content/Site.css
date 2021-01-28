@@ -1,0 +1,109 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+
+
+
+
+
+/******** Insuree/Create  ***********/
+/*!!!!!!! CityStreetsCellPhone: ENTER INSUREE FORM !!!!!!!*/
+/******* A.K.A Create Form With Button Get Quote / Button Back to Lis******/
+/* InsureeControlle / Create.cshtml */
+body::after {
+    padding:0;
+    width:100vh;
+    height:100vw;
+ 
+}
+#InsureeCreatePageBodyContainer{
+    position:absolute;
+    top:0vh;
+    left:0vw;
+    font-family:"Josefin Sans", sans-serif;
+    width:100vw;
+    height:100vh;
+
+}
+#InsureeCreateBackground img {
+    position: relative;
+
+    top: 0;
+    left: 0vw;
+    width: 100vw;
+    height:100vh;
+    z-index:-1;
+}
+
+
+#Color_Overlay {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    background-size: cover;
+    background: rgba(255,255,255,.35);
+    width: 100vw;
+    height: 150vh;
+ 
+}
+
+.jumbotron {
+    position:relative;
+    bottom:100vh;
+    right:3vw;
+    background:none;
+    font-size:1.5em;
+    color:white;
+    
+    
+   
+    
+}
+
+
+
+/*Admin.cshtml styles*/
+#Admin_cshtml_Image {
+    position: relative;
+    background-image: url("Images/MonopolyCar.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0vh;
+    left: -10vh;
+    width: 100vw;
+    height: 150vh;
+}
+
+#Admim_cshtml_Color_Overlay {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    background-size: cover;
+    background: rgba(125,125,125,0.45);
+    width: 100vw;
+    height: 150vh;
+    z-index: 1;
+}

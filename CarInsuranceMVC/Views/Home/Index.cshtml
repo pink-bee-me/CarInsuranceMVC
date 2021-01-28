@@ -1,0 +1,40 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="~/Content/HomeIndexLandingPageStyles.css" />
+</head>
+<body id="HomeIndexLandingPageBodyContainer">
+
+  <div id="HomeIndexBackground">
+    <img src="~/Content/Images/FrontPage.jpg" alt="Driving Down The Road Photo" />
+  </div>
+  <div id="ColorOverlay">
+    <div id="ImageTextOverlay">
+      <div class="jumbotron">
+
+        <h1 style="font-size:5em;">Are you paying too much for auto insurance?</h1>
+
+        <h3 id="Sadly">Sadly, the answer is probably "YES".</h3><br /><br />
+        <h2 id="RightPlace">
+          Well,... you've come to the right place!
+        </h2><br /><br /><br /><br>
+       <p id="NoHassles"> No Hassles. No Gimmicks. No Pressure. No Surprises,...<br/>and No Hidden Fees.<br /><br/> So, just take a moment and do yourself a favor...<br/>
+        <span> Join US! and Let The Good Times Roll...</span>
+      </p>
+        <div id="FreeQuoteButton" class=" btn btn-outline-primary">
+          @Html.ActionLink("GET A FREE QUOTE NOW!", "Create", "Insuree", new { @class = "btn btn-large" })
+        </div>
+        
+
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

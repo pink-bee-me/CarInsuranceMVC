@@ -1,0 +1,135 @@
+﻿/*!!!!!!! LANDING PAGE !!!!!!!*/
+/******* " ARE YOU PAYING TOO MUCH FOR YOUR INSURANCE ? "  ******/
+/*Home/Index styles*/
+
+
+#HomeIndexLandingPageBodyContainer {
+    position:absolute;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+
+
+#HomeIndexBackground img {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: no-repeat;
+    z-index: -1;
+    background-color:darkorchid;
+}
+
+#CompanyName {
+    font-weight: bold;
+    font-size: 200em;
+}
+
+#ColorOverlay {
+    position: relative;
+    top:-103vh;
+    left: 0vw;
+    background-size: cover;
+    background: rgba(128,128,128,0.45);
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+#ImageTextOverlay {
+    top:10vh;
+    left:3vw;
+}
+
+.jumbotron {
+    position: relative;
+    top:25vh;
+    left:0vw;
+    color: white;
+    background-size: cover;
+    background-color: rgba(128,128,128,0.45);
+    width: 100vw;
+    height: 100vh;
+    padding-top: 1vh;
+    padding-left: 10vw;
+    padding-bottom: 5vh;
+}
+
+
+
+    .jumbotron h1 {
+        position: relative;
+        top: 13vh;
+        left: -3vw;
+        padding-top: 1.5rem;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 300;
+        font-size:5em;
+        /* font-style:italic;*/
+        color: white;
+    }
+
+    #Sadly {
+      color:white;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 300;
+        font-size: 2em;
+        font-style: italic;
+        position:relative;
+        top:11vh;
+        left:0vw;
+        padding-top: 15px;
+    }
+
+#RightPlace {
+    position: relative;
+    top: 12vh;
+    left: 0vw;
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: 400;
+    color:white;
+}
+
+.jumbotron p span {
+    font-size: 1.25em;
+    font-weight: 300;
+    margin-bottom: 0;
+    color:white;
+}
+
+#NoHassles  {
+    position:relative;
+    top:4vh;
+    left:0vw;
+    margin-bottom: 0;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.75em;
+    font-weight: 300;
+    color:white;
+}
+
+
+#FreeQuoteButton a {
+    position: relative;
+    top: 5vh;
+    left: 0vw;
+    font-family: "Josefin Sans";
+    font-size: 1.5em;
+    font-weight: 500;
+    padding-top: 13px;
+    display: block;
+    width: 20vw;
+    height: 7vh;
+    bottom: 100vh;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(144,123,248);
+    color: aliceblue;
+}
